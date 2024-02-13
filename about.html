@@ -22,13 +22,13 @@
 
 <body>
     <!-- loading -->
-    <div id="loading">
+    <!-- <div id="loading">
         <div id="loading-center">
             <div class="load-img">
                 <img src="images/loader.gif" alt="loader">
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- loading End -->
     <!-- Header -->
     <header id="main-header" class="header-main">
@@ -53,6 +53,12 @@
                             <ul class="navbar-nav mr-auto w-100 justify-content-end">
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="solutions.html">Solutions</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link" href="about.html">About Us</a>
@@ -429,43 +435,6 @@
     <script src='js/wow.min.js'></script>
     <!--  Custom JavaScript -->
     <script src="js/custom.js"></script>
-    <!-- REVOLUTION JS FILES -->
-    <script src="js/revolution.tools.min.js"></script>
-    <script src="js/rs6.min.js"></script>
-    <script>
-        var revapi1,
-            tpj;
-        jQuery(function () {
-            tpj = jQuery;
-            if (tpj("#rev_slider_1_1").revolution == undefined) {
-                revslider_showDoubleJqueryError("#rev_slider_1_1");
-            } else {
-                revapi1 = tpj("#rev_slider_1_1").show().revolution({
-                    jsFileLocation: "js/",
-                    sliderLayout: "fullwidth",
-                    visibilityLevels: "1240,1024,778,480",
-                    gridwidth: 1440,
-                    gridheight: 768,
-                    spinner: "spinner0",
-                    editorheight: "768,546,584,720",
-                    responsiveLevels: "1240,1024,778,480",
-                    disableProgressBar: "on",
-                    navigation: {
-                        onHoverStop: false
-                    },
-                    parallax: {
-                        levels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 30],
-                        type: "mouse",
-                        origo: "slidercenter",
-                        speed: 0
-                    },
-                    fallbacks: {
-                        allowHTML5AutoPlayOnAndroid: true
-                    },
-                });
-            }
-        });
-    </script>
 
 
 </body>
