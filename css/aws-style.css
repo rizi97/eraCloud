@@ -759,7 +759,7 @@ Counter
 .iq-list li:last-child { margin-bottom: 0; }
 .iq-list-with-icon, .iq-list-with-img, .iq-list ul { padding: 0; margin: 0; }
 .iq-list-with-icon li, .iq-list-with-img li { padding-left: 0; list-style: none; display: flex; }
-.iq-list-with-icon li i, .iq-list-with-img li img { margin-right: 10px; color: #007BFC; width: auto; height: 100%; margin-top: 10px; }
+.iq-list-with-icon li i, .iq-list-with-img li img { margin-right: 10px; color: #007BFC; width: auto; height: 100%; margin-top: 3px; }
 .iq-list.iq-one-column { columns: 1; -webkit-columns: 1; -moz-columns: 1; }
 .iq-list.iq-two-column { columns: 2; -webkit-columns: 2; -moz-columns: 2; }
 .iq-list.iq-three-column { columns: 3; -webkit-columns: 3; -moz-columns: 3; }
@@ -1221,6 +1221,9 @@ article.hentry.format-video .iq-blog-image p { margin-bottom: 0; }
 .iq-db-options ul li.type-1.iq-rela{ padding: 30px 0px 30px 0px;}
 footer .footer-top .widget ul.iq-contact li a{padding: 7px 0 7px 0px;}
 footer .footer-top .widget ul.iq-contact li a:hover {color: #ffffff;}
+footer ul {
+  margin-bottom: 0;
+}
 .iq-data-product img.shape {
     position: absolute;
     left: 91%;
