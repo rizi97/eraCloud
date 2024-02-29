@@ -2,13 +2,28 @@
 @media only screen and (min-width:1200px) {
 	body.boxed_layout { padding: 30px; }
 }
-@media(max-width:1399px) {
+@media(max-width:1460px) {
 	header .sub-header { padding: 10px 30px }
 	header .main-header { padding: 0 30px }
 	.iq-mt-120 { margin-top: 90px; }
 		img.shape-left {
     position: absolute;
     right: 95%;
+    top: 12%;}
+
+img.shape-right {
+    position: absolute;
+    left: 95%;
+}
+
+}
+@media(max-width:1399px) {
+	header .sub-header { padding: 10px 30px }
+	header .main-header { padding: 0 30px }
+	.iq-mt-120 { margin-top: 90px; }
+		img.shape-left {
+    position: absolute;
+    right: 99%;
     top: 12%;}
 
 img.shape-right {

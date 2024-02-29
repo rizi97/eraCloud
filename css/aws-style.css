@@ -1224,6 +1224,9 @@ footer .footer-top .widget ul.iq-contact li a:hover {color: #ffffff;}
 footer ul {
   margin-bottom: 0;
 }
+section.iq-application {
+  background-attachment: unset !important;
+}
 .iq-data-product img.shape {
     position: absolute;
     left: 91%;
